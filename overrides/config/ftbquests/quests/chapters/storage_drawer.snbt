@@ -1,0 +1,94 @@
+{
+	id: "3CDAAD938C1387A9"
+	group: "2366D0EA894178DE"
+	order_index: 4
+	filename: "storage_drawer"
+	title: "Storage"
+	icon: "ironchest:iron_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["3A9C93F732D7E31E"]
+			id: "2FDD9684AB31881D"
+			tasks: [{
+				id: "6113A0BF623EC269"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["6DCFC37489D524EC"]
+			id: "5A7B86CE15D7BD4E"
+			tasks: [{
+				id: "4FF6E0D5753C5B20"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["3A9C93F732D7E31E"]
+			id: "6DCFC37489D524EC"
+			tasks: [{
+				id: "3496630E56FC74F0"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["5A7B86CE15D7BD4E"]
+			id: "4CFFBC71388CFD7D"
+			tasks: [{
+				id: "56B2CFFDF470B4A8"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["4CFFBC71388CFD7D"]
+			id: "191B513850D3A8AD"
+			tasks: [{
+				id: "2253BD1DBBA17B5A"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			icon: "minecraft:chest"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["5932C3F16F208996"]
+			size: 1.5d
+			id: "3A9C93F732D7E31E"
+			tasks: [{
+				id: "1293F51DE1013389"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["3A9C93F732D7E31E"]
+			id: "19C1786DE7DB4AB2"
+			tasks: [{
+				id: "32DB7FABDDDE2E93"
+				type: "item"
+				item: "ironchest:dirt_chest"
+				count: 99L
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "5EE53B48FF4835CF"
+	group: "7028DB7434F9B75D"
+	order_index: 2
+	filename: "eidolon"
+	title: "Dark magic"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

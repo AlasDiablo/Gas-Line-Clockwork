@@ -1,0 +1,54 @@
+{
+	id: "5932C3F16F208996"
+	group: "2366D0EA894178DE"
+	order_index: 0
+	filename: "age_1"
+	title: "Time to create !"
+	icon: {
+		id: "extendedcrafting:singularity"
+		Count: 1b
+		tag: {
+			Id: "extendedcrafting:bronze"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"63388378ACD813A6"
+				"02E076FC1708329B"
+			]
+			size: 1.5d
+			id: "2F37B60634748472"
+			tasks: [{
+				id: "75EF14F66DEE772F"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "02E076FC1708329B"
+			tasks: [{
+				id: "1966D0AD07766B5F"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "63388378ACD813A6"
+			tasks: [{
+				id: "30DCDB36271F6001"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+	]
+}

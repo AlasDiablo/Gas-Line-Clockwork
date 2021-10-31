@@ -1,0 +1,11 @@
+{
+	id: "1328558AF581820A"
+	group: "2366D0EA894178DE"
+	order_index: 2
+	filename: "plant_magic"
+	title: "plant magic"
+	icon: "mysticalagriculture:steeleaf_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

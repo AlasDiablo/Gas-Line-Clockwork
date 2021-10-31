@@ -1,0 +1,35 @@
+{
+	id: "577D21D4B715AC67"
+	group: "625F5D1088281EAE"
+	order_index: 1
+	filename: "info__fix"
+	title: "Info / Fix"
+	icon: "minecraft:paper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "createdeco:orange_decal"
+			x: 0.0d
+			y: 0.0d
+			description: ["And the modpack is not finish yet"]
+			size: 2.0d
+			id: "116B881E605DD2BB"
+			tasks: [{
+				id: "5E4B24BD2D2262B4"
+				type: "checkmark"
+				title: "Name are temporary !"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "4112DED47729D249"
+			tasks: [{
+				id: "041BE9565F0CCD12"
+				type: "checkmark"
+				title: "Falling in the void"
+			}]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	id: "39D7F6137EBB3C7D"
+	group: "625F5D1088281EAE"
+	order_index: 2
+	filename: "decoration"
+	title: "Decoration"
+	icon: "cfm:stripped_oak_chair"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "30CF6A9DF7DC642B"
+			tasks: [{
+				id: "7571F109CD4AB178"
+				type: "item"
+				item: {
+					id: "chisel:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "MrCrayfish's Furnitur Mod"
+			x: -2.0d
+			y: 0.0d
+			id: "5D7203EA2C9DD0FC"
+			tasks: [{
+				id: "07831767C7142890"
+				type: "checkmark"
+				title: "yes"
+			}]
+		}
+	]
+}

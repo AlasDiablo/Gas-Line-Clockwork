@@ -1,0 +1,665 @@
+{
+	id: "3BE0DF96BE644DA4"
+	group: "2366D0EA894178DE"
+	order_index: 3
+	filename: "tinker_construct"
+	title: "Tinker Construct"
+	icon: {
+		id: "tconstruct:tinker_station"
+		Count: 1b
+		tag: {
+			texture: "minecraft:oak_planks"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["6CECD15289DA6734"]
+			id: "6E6CECE3133C0B06"
+			tasks: [{
+				id: "70D2C83FB7FD0570"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["3C17D14A66D42482"]
+			id: "40A921B583EEB647"
+			tasks: [{
+				id: "6EEF389D90940318"
+				type: "item"
+				item: "tconstruct:tinker_station"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["6E6CECE3133C0B06"]
+			id: "3C17D14A66D42482"
+			tasks: [{
+				id: "3DC2CAD464692D83"
+				type: "item"
+				item: "tconstruct:part_builder"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["40A921B583EEB647"]
+			id: "0216AA14CF0F5290"
+			tasks: [{
+				id: "1CFE134B2BA003C9"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "1E4573A4EFB8933F"
+			tasks: [{
+				id: "049EC96944048D1A"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:attack_speed": 1.2f
+						}
+						tic_broken: 0b
+						tic_modifiers: [{
+							name: "tconstruct:piercing"
+							level: 1s
+						}]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "27AB7C62469DA7DF"
+			tasks: [{
+				id: "786E8D6C9264B82C"
+				type: "item"
+				item: {
+					id: "tconstruct:hand_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.0f
+							"tconstruct:attack_speed": 0.9f
+						}
+						tic_broken: 0b
+						tic_modifiers: [{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "093E0E29E8E3B365"
+			tasks: [{
+				id: "44DC6BD1F7F410D0"
+				type: "item"
+				item: {
+					id: "tconstruct:sword"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:durability": 1.1f
+						}
+						tic_broken: 0b
+						tic_modifiers: [{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "356FD6778645D3F1"
+			tasks: [{
+				id: "1DF18BDDE481C96B"
+				type: "item"
+				item: {
+					id: "tconstruct:kama"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:attack_speed": 1.8f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_transform_hidden"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "1A4B6D802BE52516"
+			tasks: [{
+				id: "5053C80468C91D43"
+				type: "item"
+				item: {
+					id: "tconstruct:dagger"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:durability": 1.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:durability": 1.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:padded"
+								level: 1s
+							}
+							{
+								name: "tconstruct:offhand_attack"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:duel_wielding": 1b
+						}
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["40A921B583EEB647"]
+			id: "1517E04E1A83AD94"
+			tasks: [{
+				id: "37E58E1BE6554FBA"
+				type: "item"
+				item: {
+					id: "tconstruct:mattock"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:attack_speed": 1.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 1s
+							}
+							{
+								name: "tconstruct:shovel_transform_hidden"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "5688C04E40C0DA59"
+			tasks: [{
+				id: "1F8FB8B80A894955"
+				type: "item"
+				item: {
+					id: "tconstruct:cleaver"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.9f
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 5.25f
+							"tconstruct:durability": 3.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:severing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "49F5B581F24B4F44"
+			tasks: [{
+				id: "36A54CFEAF26C566"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 4.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:durability": 4.25f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:axe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "2F5C1349237A8DDE"
+			tasks: [{
+				id: "5B294081D20A6F66"
+				type: "item"
+				item: {
+					id: "tconstruct:excavator"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.8000001f
+							"tconstruct:durability": 3.75f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 2s
+							}
+							{
+								name: "tconstruct:shovel_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "3A2E2055A6496BB1"
+			tasks: [{
+				id: "6A9D17316BFD26BE"
+				type: "item"
+				item: {
+					id: "tconstruct:scythe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:durability": 2.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:durability": 2.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "1D6CE49C8C9B7270"
+			tasks: [{
+				id: "67E7D15F095B6571"
+				type: "item"
+				item: {
+					id: "tconstruct:sledge_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:attack_damage": 4.05f
+							"tconstruct:durability": 4.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:smite"
+								level: 2s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["0216AA14CF0F5290"]
+			id: "0BC6A2E309B882E4"
+			tasks: [{
+				id: "7A2D744ED89CC1B8"
+				type: "item"
+				item: {
+					id: "tconstruct:vein_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:durability": 5.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["6E6CECE3133C0B06"]
+			id: "6D9269CE37875FA5"
+			tasks: [{
+				id: "1BBDF26F07E06F49"
+				type: "item"
+				item: "tconstruct:crafting_station"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["4D26526090D7AAE6"]
+			id: "15275D9DCFC01037"
+			tasks: [{
+				id: "6AE17C3CBC2A4B94"
+				type: "item"
+				item: "tconstruct:earth_slime_boots"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["4D26526090D7AAE6"]
+			id: "5AD1ECA0981EF3D7"
+			tasks: [{
+				id: "6E01E8EAE8E6306B"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Read the manual !"
+			x: -2.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "6CECD15289DA6734"
+			tasks: [{
+				id: "72EDA27A8AE58C16"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["6E6CECE3133C0B06"]
+			id: "4051745CE5771CBE"
+			tasks: [{
+				id: "675919D1D9112B4E"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["6CECD15289DA6734"]
+			id: "4D26526090D7AAE6"
+			tasks: [{
+				id: "655BB23117E0DC25"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["6CECD15289DA6734"]
+			id: "19A25A357F6E8617"
+			tasks: [{
+				id: "02F9774DD375AFDA"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["19A25A357F6E8617"]
+			id: "794E94B7C3441AD5"
+			tasks: [{
+				id: "4EB8A910CDEF02F4"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			dependencies: ["794E94B7C3441AD5"]
+			id: "3DE90E9FFE10300E"
+			tasks: [{
+				id: "1E2BE41B6A57D0DD"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: [
+				"3DE90E9FFE10300E"
+				"794E94B7C3441AD5"
+				"19A25A357F6E8617"
+				"6CECD15289DA6734"
+			]
+			id: "0D1C8EC7C8DFAC87"
+			tasks: [{
+				id: "725BF128CCBDB5B2"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+		}
+		{
+			icon: "createdeco:orange_decal"
+			x: -6.0d
+			y: 2.0d
+			shape: "hexagon"
+			size: 2.0d
+			id: "3FA52140980667BB"
+			tasks: [{
+				id: "45D996D055FF0DDD"
+				type: "checkmark"
+				title: "TODO smelltery"
+			}]
+		}
+	]
+}

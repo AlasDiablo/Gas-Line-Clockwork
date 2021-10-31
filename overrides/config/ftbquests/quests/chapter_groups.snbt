@@ -1,3 +1,9 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "625F5D1088281EAE", title: "Primal Age" }
+		{ id: "2366D0EA894178DE", title: "Create Age (early game)" }
+		{ id: "7028DB7434F9B75D", title: "Dark Age (mid game)" }
+		{ id: "5856AD99D2C4C94E", title: "Discovery Age (mid late game)" }
+		{ id: "5E8E8C4133ED4372", title: "Divin Age (late game)" }
+	]
 }

@@ -1,0 +1,11 @@
+{
+	id: "58D9519C2D9F506A"
+	group: "5856AD99D2C4C94E"
+	order_index: 2
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:disk_drive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

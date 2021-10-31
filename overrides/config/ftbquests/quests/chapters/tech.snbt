@@ -1,0 +1,27 @@
+{
+	id: "51938CA48FB20CFA"
+	group: "2366D0EA894178DE"
+	order_index: 1
+	filename: "tech"
+	title: "mechanical tech"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "05A9E2628211D97B"
+		tasks: [
+			{
+				id: "57BC7238F3BB6C85"
+				type: "item"
+				item: "create:cogwheel"
+			}
+			{
+				id: "04C5481C4088EA41"
+				type: "item"
+				item: "create:large_cogwheel"
+			}
+		]
+	}]
+}

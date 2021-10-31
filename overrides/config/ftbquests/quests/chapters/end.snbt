@@ -1,0 +1,11 @@
+{
+	id: "4397DBF1CC564BC8"
+	group: "5E8E8C4133ED4372"
+	order_index: 1
+	filename: "end"
+	title: "End"
+	icon: "endergetic:glowing_poise_stem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

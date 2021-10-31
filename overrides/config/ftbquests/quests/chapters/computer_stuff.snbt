@@ -1,0 +1,11 @@
+{
+	id: "288F6F31EBC92987"
+	group: "5856AD99D2C4C94E"
+	order_index: 3
+	filename: "computer_stuff"
+	title: "Computer Stuff"
+	icon: "computercraft:computer_normal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
