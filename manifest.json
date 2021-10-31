@@ -11,17 +11,21 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Gas Line Clockwork",
-  "version": "1.0.0",
   "author": "",
   "files": [
+    {
+      "projectID": 534610,
+      "fileID": 3509820,
+      "required": true
+    },
     {
       "projectID": 238222,
       "fileID": 3502687,
       "required": true
     },
     {
-      "projectID": 326041,
-      "fileID": 3380271,
+      "projectID": 439890,
+      "fileID": 3501455,
       "required": true
     },
     {
@@ -60,18 +64,23 @@
       "required": true
     },
     {
-      "projectID": 419699,
-      "fileID": 3500014,
-      "required": true
-    },
-    {
       "projectID": 272335,
       "fileID": 3507886,
       "required": true
     },
     {
+      "projectID": 419699,
+      "fileID": 3500014,
+      "required": true
+    },
+    {
       "projectID": 404465,
       "fileID": 3476854,
+      "required": true
+    },
+    {
+      "projectID": 466792,
+      "fileID": 3494705,
       "required": true
     },
     {
@@ -117,6 +126,11 @@
     {
       "projectID": 231951,
       "fileID": 3497359,
+      "required": true
+    },
+    {
+      "projectID": 444965,
+      "fileID": 3449683,
       "required": true
     },
     {
@@ -190,8 +204,8 @@
       "required": true
     },
     {
-      "projectID": 233105,
-      "fileID": 3486621,
+      "projectID": 509285,
+      "fileID": 3503936,
       "required": true
     },
     {
@@ -222,11 +236,6 @@
     {
       "projectID": 69162,
       "fileID": 3407019,
-      "required": true
-    },
-    {
-      "projectID": 290209,
-      "fileID": 3380276,
       "required": true
     },
     {

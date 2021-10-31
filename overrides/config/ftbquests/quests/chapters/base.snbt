@@ -1,0 +1,88 @@
+{
+	id: "02DADF515AED9321"
+	group: ""
+	order_index: 0
+	filename: "base"
+	title: "newly born"
+	icon: "minecraft:stick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The first tree down !"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "get 8 oak log"
+			id: "102B0FABFC3E480E"
+			tasks: [{
+				id: "68C0284F126F6FA6"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "48756D7FEA442960"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8
+				}
+				{
+					id: "41A9F83D254604A8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Perpetual tree"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "get your first oak spalling"
+			dependencies: ["102B0FABFC3E480E"]
+			id: "20463B0D361E32DE"
+			tasks: [{
+				id: "06F739E7F8A05A13"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			title: "Food is good"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Get some food to suvive"
+			description: [""]
+			dependencies: ["102B0FABFC3E480E"]
+			dependency_requirement: "one_started"
+			id: "374EC6F3646024AA"
+			tasks: [{
+				id: "6EB8F91FDDEAAA5F"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["102B0FABFC3E480E"]
+			id: "2D2C1B2D0314EEE7"
+			tasks: [{
+				id: "503EEF3BDC633476"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["2D2C1B2D0314EEE7"]
+			id: "53EAB9FB0880761C"
+			tasks: [{
+				id: "66B534F72DE616DB"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+	]
+}
