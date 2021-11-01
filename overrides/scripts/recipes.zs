@@ -19,20 +19,10 @@ craftingTable.addShaped("black_iron_ingot_from_nugget", <item:extendedcrafting:b
 ]);
 // [END] Age 1 - Black iron ingot ------------------------------------------------------------------------------------------------------------------------------------------
 
-// [START] Age 1 - Create --------------------------------------------------------------------------------------------------------------------------------------
-craftingTable.removeRecipe(<item:create:andesite_alloy>);
-mods.extendedcrafting.TableCrafting.addShaped("andesite_alloy_from_iron", 1, <item:create:andesite_alloy>, [
-    [<item:minecraft:iron_nugget>, <item:minecraft:andesite>],
-    [<item:minecraft:andesite>, <item:minecraft:iron_nugget>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped("andesite_alloy_from_zinc", 1, <item:create:andesite_alloy>, [
-    [<item:create:zinc_nugget>, <item:minecraft:andesite>],
-    [<item:minecraft:andesite>, <item:create:zinc_nugget>]
-]);
-// [END] Age 1 - Create ----------------------------------------------------------------------------------------------------------------------------------------
+// [START] Age 1 --------------------------------------------------------------------------------------------------------------------------------------
 
 for recipe in craftingTable.getAllRecipes() {
-    if (recipe.id.namespace == "ironchest" || recipe.id.namespace == "create") {
+    if (recipe.id.namespace == "ironchest" || recipe.id.namespace == "create" || recipe.id.namespace == "tconstruct") {
         var size = 3;
         var x = 0;
         var y = 0;
@@ -57,10 +47,17 @@ for recipe in craftingTable.getAllRecipes() {
                 x = 0;
                 y = y + 1;
             }
-            list[x][y] = ingredient;
+
+            list[y][x] = ingredient;
             
             x = x + 1;
         }
         mods.extendedcrafting.TableCrafting.addShaped(recipe.id.path, 1, recipe.output, list);
+        <recipetype:create:mechanical_crafting>.addRecipe(recipe.id.path, recipe.output, list);
     }
 }
+
+craftingTable.removeByModid("ironchest");
+craftingTable.removeByModid("create");
+craftingTable.removeByModid("tconstruct");
+// [END] Age 1 ----------------------------------------------------------------------------------------------------------------------------------------
