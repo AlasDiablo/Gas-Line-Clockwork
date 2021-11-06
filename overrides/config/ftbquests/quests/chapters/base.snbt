@@ -52,7 +52,7 @@
 			title: "Food is good"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "Get some food to suvive"
+			subtitle: "get some food to suvive"
 			description: [""]
 			dependencies: ["102B0FABFC3E480E"]
 			dependency_requirement: "one_started"
@@ -634,6 +634,18 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 				count: 2304L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["34C4E93889852652"]
+			id: "50590859F34009C3"
+			tasks: [{
+				id: "35E5FB2518A6BCA8"
+				type: "item"
+				item: "minecraft:glowstone_dust"
 			}]
 		}
 	]

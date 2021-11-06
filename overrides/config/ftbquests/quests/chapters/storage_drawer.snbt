@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.0d
+			x: 3.5d
 			y: 0.0d
 			dependencies: ["3A9C93F732D7E31E"]
 			id: "2FDD9684AB31881D"
@@ -88,6 +88,126 @@
 				type: "item"
 				item: "ironchest:dirt_chest"
 				count: 99L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			id: "68A06BE06E2B51A6"
+			tasks: [{
+				id: "3AF227335DC3DB4D"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			id: "650A3C8149F512AF"
+			tasks: [{
+				id: "237B3F29D41BD8B6"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "5FE74E13A74CC791"
+			tasks: [{
+				id: "2B127F225B206C95"
+				type: "item"
+				item: "storagedrawers:oak_half_drawers_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "50ABB64F740D066D"
+			tasks: [{
+				id: "28B782DDD3E0A1F3"
+				type: "item"
+				item: "storagedrawers:oak_half_drawers_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			id: "1237989B3D5992EE"
+			tasks: [{
+				id: "417E4491F3EEA9DE"
+				type: "item"
+				item: "storagedrawers:oak_half_drawers_4"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			id: "4548972D65381C42"
+			tasks: [{
+				id: "608A71FAD8B94B4F"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			id: "3FFF164A31860B3B"
+			tasks: [{
+				id: "5DFB090653300C2A"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "773E6312053AF76A"
+			tasks: [{
+				id: "0A028EE1B261F505"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			id: "67F314848769C2D5"
+			tasks: [{
+				id: "0CCEFBE337E7A0D8"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			id: "0DB0A1D9CC34E2AE"
+			tasks: [{
+				id: "5F2B72670F61DB4E"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			id: "19963D74D51C22DB"
+			tasks: [{
+				id: "1A8229411DF74EC6"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			id: "33BB84386DA035BA"
+			tasks: [{
+				id: "0DFC4F01FEB3F7A6"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
 			}]
 		}
 	]
